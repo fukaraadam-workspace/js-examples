@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import { WithoutMemo, WithMemo } from './hooks/Memo';
 import { WithoutCallback, WithCallback } from './hooks/Callback';
+import { WithoutMemoFunction, WithMemoFunction } from './functions/Memo';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -28,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: '/with-callback',
     element: <WithCallback />,
+  },
+  {
+    path: '/without-memo-function',
+    element: <WithoutMemoFunction />,
+  },
+  {
+    path: '/with-memo-function',
+    element: <WithMemoFunction />,
   },
 ]);
 
