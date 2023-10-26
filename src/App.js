@@ -6,16 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <p>React Hooks Examples</p>
+        <a className="App-link" href="/without-memo">
+          Without Memo
+        </a>
+        <a className="App-link" href="/with-memo">
+          With Memo
         </a>
       </header>
     </div>

@@ -1,14 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
+// Routes
 import App from './App';
+import { WithoutMemo, WithMemo } from './hooks/Memo';
 import reportWebVitals from './reportWebVitals';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+  {
+    path: '/without-memo',
+    element: <WithoutMemo />,
+  },
+  {
+    path: '/with-memo',
+    element: <WithMemo />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
