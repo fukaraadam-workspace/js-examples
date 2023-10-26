@@ -25,6 +25,9 @@ function App() {
         <a className="App-link" href="/with-memo-function">
           With Memo Function
         </a>
+        <a className="App-link" href="/with-ref">
+          With Ref
+        </a>
       </header>
     </div>
   );
