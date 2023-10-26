@@ -13,6 +13,12 @@ function App() {
         <a className="App-link" href="/with-memo">
           With Memo
         </a>
+        <a className="App-link" href="/without-callback">
+          Without Callback
+        </a>
+        <a className="App-link" href="/with-callback">
+          With Callback
+        </a>
       </header>
     </div>
   );
