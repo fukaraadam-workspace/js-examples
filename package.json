@@ -4,6 +4,7 @@
   "description": "some example usages and structures",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
