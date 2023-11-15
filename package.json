@@ -1,10 +1,11 @@
 {
-  "name": "backend-ts",
+  "name": "ts-examples",
   "version": "0.1.0",
   "description": "some example usages and structures",
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
+    "start": "tsc && node dist/decorators-class.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
