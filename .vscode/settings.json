@@ -3,5 +3,18 @@
   "editor.formatOnSave": true,
   "files.associations": {
     ".env.*": "properties"
-  }
+  },
+  // Added these for Github Markdown
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": [
+        "a",
+        "span",
+        "h1",
+        "img",
+        "p"
+      ]
+    },
+    "first-line-h1": false
+  },
 }
