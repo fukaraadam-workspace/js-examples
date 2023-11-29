@@ -15,7 +15,7 @@ const Validator = (fn) => {
   return function (...args) {
     const validArgs = args.every((arg) => Number.isInteger(arg));
     if (!validArgs) {
-      throw new TypeError("Argument cannot be a non-integer");
+      throw new TypeError('Argument cannot be a non-integer');
     }
     return fn(...args);
   };
