@@ -29,5 +29,8 @@
   "homepage": "https://github.com/fukaraadam-workspace/js-examples#readme",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
 }
