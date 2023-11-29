@@ -1,0 +1,27 @@
+{
+  "name": "electron-examples",
+  "version": "0.1.0",
+  "description": "Electron JS examples to work on",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fukaraadam-workspace/electron-examples.git"
+  },
+  "keywords": [
+    "electron",
+    "js"
+  ],
+  "author": "Furkan Alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fukaraadam-workspace/electron-examples/issues"
+  },
+  "homepage": "https://github.com/fukaraadam-workspace/electron-examples#readme",
+  "devDependencies": {
+    "electron": "^27.1.2"
+  }
+}
