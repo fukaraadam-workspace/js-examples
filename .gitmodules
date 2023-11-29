@@ -1,0 +1,3 @@
+[submodule "npm-package-examples"]
+	path = npm-package-examples
+	url = https://github.com/fukaraadam-workspace/npm-package-examples.git
