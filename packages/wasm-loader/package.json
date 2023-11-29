@@ -1,0 +1,9 @@
+{
+  "name": "wasm-loader-examples",
+  "version": "0.1.0",
+  "description": "Examples to use wasm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  }
+}
