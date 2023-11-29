@@ -2,7 +2,7 @@
   "name": "cjs",
   "scripts": {
     "compile": "tsc",
-    "start": "tsc && node dist/decorators-class.js"
+    "start": "tsc && node dist/index.js"
   },
   "devDependencies": {
     "typescript": "^5.3.2"
