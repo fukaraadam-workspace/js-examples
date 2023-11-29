@@ -1,0 +1,14 @@
+{
+  "name": "assembly-script",
+  "version": "0.1.0",
+  "description": "Javascript to generate wasm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assemblyscript": "^0.27.22"
+  }
+}
