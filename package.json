@@ -27,6 +27,9 @@
     "url": "https://github.com/fukaraadam-workspace/js-examples/issues"
   },
   "homepage": "https://github.com/fukaraadam-workspace/js-examples#readme",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "http-server": "^14.1.1",
     "typescript": "^5.2.2"
