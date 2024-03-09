@@ -1,5 +1,7 @@
 # template-electron-vite
 
+"npm create @quick-start/electron@latest"
+
 An Electron application with React and TypeScript
 
 ## Recommended IDE Setup
