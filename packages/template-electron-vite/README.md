@@ -1,6 +1,7 @@
 # template-electron-vite
 
-"npm create @quick-start/electron@latest"
+Initialized by "npm create @quick-start/electron@latest".
+Uses electron-builder. [Docs](https://electron-vite.org/guide/)
 
 An Electron application with React and TypeScript
 
