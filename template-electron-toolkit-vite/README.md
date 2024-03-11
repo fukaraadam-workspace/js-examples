@@ -1,4 +1,4 @@
-# template-electron-vite
+# template-electron-toolkit-vite
 
 Initialized by "npm create @quick-start/electron@latest".
 Uses electron-builder. [Docs](https://electron-vite.org/guide/)
